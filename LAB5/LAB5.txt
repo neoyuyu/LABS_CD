@@ -1,0 +1,15 @@
+Laboratório 5 - Divisor de Frequência
+ 
+Consumo de área da FPGA:
+- Pinos utilizados: 3 / 347 (< 1%)
+- Logic Elements (Total logic elements): 48 / 15.408 (< 1%)
+  - Total combinational functions: 49
+  - Dedicated logic registers: 0
+Atraso crítico:
+- Fmax (clock CLK, Slow 1200mV 85C Model): 181.55 MHz
+- Período crítico equivalente: ≈ 5.51 ns
+ 
+Observação:
+O circuito foi implementado a partir de latches D construídos com portas NAND
+(sem uso de componentes DFF nativos do Quartus), por isso o Fitter não reconhece
+nenhum "Dedicated logic register".
